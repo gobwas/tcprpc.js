@@ -1,0 +1,18 @@
+{
+    "tcp": {
+        "listen": "ip",
+
+        "socket": {
+            "path": "/tmp/fest-daemon.sock"
+        },
+
+        "ip": {
+            "host": "127.0.0.1",
+            "port": 3000
+        },
+
+        "message": {
+            "delimeter": "\n"
+        }
+    }
+}

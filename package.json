@@ -1,0 +1,26 @@
+{
+  "name": "tcprpc",
+  "version": "0.1.0",
+  "description": "TCPRpc Server Client",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/web.js"
+  },
+  "keywords": [
+    "tcprpc",
+    "benchmark",
+    "test"
+  ],
+  "author": "Sergey Kamardin <gobwas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.0",
+    "debug": "^2.2.0",
+    "fest": "^0.8.2",
+    "hapi": "^8.8.0",
+    "inherits-js": "^0.1.1",
+    "lodash": "^3.10.0",
+    "uuid": "^2.0.1"
+  }
+}
